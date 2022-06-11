@@ -18,10 +18,11 @@ library(sf)
 library(tidyverse)
 library(leaflet)
 all<-read.csv("all_students_geocoded.csv", header=TRUE, sep=";")
+colnames(all)[1:5]<- c("degree", "program", "year", "group", "gender")
 all %>% st_as_sf(coords = c("lon", "lat"), crs = 4326) %>% 
   st_jitter(factor = 0.0005) %>%
   leaflet() %>% 
   addProviderTiles("CartoDB") %>%
-  addMarkers()
+  addMarkers(popup = ~paste0("<b>", "Курс: ", "</b>", year, "<br/>", "<b>", "Група ", "</b>", group))
 
 ```
