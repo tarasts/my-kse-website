@@ -4,7 +4,7 @@ title: "Taras Tsymbal's personal website"
 
 Taras Tsymbal is a sociologist working at the Faculty of Sociology, Taras Shevchenko National University of Kyiv. He holds a PhD in sociology obtained in 2009 at the same university. His research interests include sociology of globalization, social history, historical sociology, and world-systems analysis.
 
-![Photo of Taras Tsymbal](cymbal.jpg){width="500"}
+![Photo of Taras Tsymbal](images/cymbal.jpg){width="500"}
 
 ```{r}
 #| layout-ncol: 1
