@@ -9,6 +9,7 @@ Taras Tsymbal is a sociologist working at the Faculty of Sociology, Taras Shevch
 ```{r}
 #| layout-ncol: 1
 #| echo: false
+#| message: false
 #| fig-cap: 
 #|   - "Geographical distribution of students in mid-March 2022"
 
