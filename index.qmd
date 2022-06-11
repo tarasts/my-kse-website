@@ -1,0 +1,26 @@
+---
+title: "Taras Tsymbal's personal website"
+---
+
+Taras Tsymbal is a sociologist working at the Faculty of Sociology, Taras Shevchenko National University of Kyiv. He holds a PhD in sociology obtained in 2009 at the same university. His research interests include sociology of globalization, social history, historical sociology, and world-systems analysis.
+
+![Photo of Taras Tsymbal](cymbal.jpg){width="500"}
+
+```{r}
+#| layout-ncol: 1
+#| echo: false
+#| fig-cap: 
+#|   - "Geographical distribution of students in mid-March 2022"
+
+
+library(sf)
+library(tidyverse)
+library(leaflet)
+all<-read.csv("all_students_geocoded.csv", header=TRUE, sep=";")
+all %>% st_as_sf(coords = c("lon", "lat"), crs = 4326) %>% 
+  st_jitter(factor = 0.0005) %>%
+  leaflet() %>% 
+  addProviderTiles("CartoDB") %>%
+  addMarkers()
+
+```
