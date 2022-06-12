@@ -23,6 +23,6 @@ all %>% st_as_sf(coords = c("lon", "lat"), crs = 4326) %>%
   st_jitter(factor = 0.0005) %>%
   leaflet() %>% 
   addProviderTiles("CartoDB") %>%
-  addMarkers(popup = ~paste0("<b>", "Курс: ", "</b>", year, "<br/>", "<b>", "Група ", "</b>", group))
+  addMarkers(popup = ~paste0("<b>", "Year of study: ", "</b>", year, "<br/>", "<b>", "Group: ", "</b>", group))
 
 ```
