@@ -10,6 +10,14 @@ website:
         text: Home
       - about.qmd
       - research.qmd
+  sidebar:
+    style: "docked"
+    contents:
+      - section: "Research"
+        contents:
+          - authoritarianism.qmd
+          - spatial_voting.qmd
+          - market_integration.qmd
 
 format:
   html:

@@ -1,0 +1,9 @@
+---
+title: "Social sources of authoritarianism"
+---
+
+About this site
+
+```{r}
+1 + 1
+```

@@ -1,0 +1,9 @@
+---
+title: "Spatial patterns in voting"
+---
+
+About this site
+
+```{r}
+1 + 1
+```
