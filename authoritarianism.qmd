@@ -1,9 +1,28 @@
 ---
 title: "Social sources of authoritarianism"
+number-sections: true
 ---
 
-About this site
+## Background {#sec-background}
+
+## Scales and Measurements {#sec-scales}
+
+
+### Nancy Cochran's Hierarchical Control Scale
+
+### Classical F-Scale
+
+
+
+### Detlef Oesterreich' Long Authoritarianism Scale
+
+@oesterreich_flight_2005
+
+### 
+
 
 ```{r}
 1 + 1
 ```
+
+

@@ -13,11 +13,17 @@ website:
   sidebar:
     style: "docked"
     contents:
+      - section: index.qmd
+        text: Home
+      - section: about.qmd
+        text: Who I am
       - section: "Research"
         contents:
           - authoritarianism.qmd
           - spatial_voting.qmd
           - market_integration.qmd
+      - section: viz_work.qmd
+        text: Visualizations
 
 format:
   html:

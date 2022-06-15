@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-0.9.563">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Taras Tsymbal - Experimental visualizations from work tasks</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+<script src="site_libs/htmlwidgets-1.5.4/htmlwidgets.js"></script>
+<script src="site_libs/jquery-1.12.4/jquery.min.js"></script>
+<link href="site_libs/leaflet-1.3.1/leaflet.css" rel="stylesheet">
+<script src="site_libs/leaflet-1.3.1/leaflet.js"></script>
+<link href="site_libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet">
+<script src="site_libs/proj4-2.6.2/proj4.min.js"></script>
+<script src="site_libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
+<link href="site_libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet">
+<script src="site_libs/leaflet-binding-2.1.1/leaflet.js"></script>
+<script src="site_libs/leaflet-providers-1.9.0/leaflet-providers_1.9.0.js"></script>
+<script src="site_libs/leaflet-providers-plugin-2.1.1/leaflet-providers-plugin.js"></script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-sidebar docked nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Taras Tsymbal</span>
+  </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./index.html" aria-current="page">Home</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html">Who I am</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./research.html">Research</a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title">Experimental visualizations from work tasks</h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">Home</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./about.html" class="sidebar-item-text sidebar-link">Who I am</a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+    <div class="sidebar-item-container"> 
+        <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">Research</a>
+      <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+        <i class="bi bi-chevron-right ms-2"></i>
+      </a>
+    </div>
+    <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./authoritarianism.html" class="sidebar-item-text sidebar-link">Social sources of authoritarianism</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./spatial_voting.html" class="sidebar-item-text sidebar-link">Spatial patterns in voting</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./market_integration.html" class="sidebar-item-text sidebar-link">Market integration in the early modern Ukraine</a>
+  </div>
+</li>
+    </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./viz_work.html" class="sidebar-item-text sidebar-link active">Visualizations</a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block">Experimental visualizations from work tasks</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    
+  </div>
+  
+
+</header>
+
+<div class="cell quarto-layout-panel">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
+<div id="htmlwidget-6b9e18e9ca02d3a7aa84" style="width:100%;height:464px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-6b9e18e9ca02d3a7aa84">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addProviderTiles","args":["CartoDB",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addMarkers","args":[[51.1970518635915,58.579545743238,51.0040750348904,49.141511028521,60.1553496440641,50.4640118263631,48.6908460782847,49.3743898667684,50.472533194079,49.8378267949581,54.7129946933086,48.6801507560394,49.8351735739559,51.0876670245798,49.6706417268082,48.5009462050926,50.0689548356225,51.4901869594352,48.9344118455708,48.6433980998983,49.3967308141996,48.1818830416969,49.6008197807028,48.5829649439976,49.5624914832779,49.5541861750862,49.619842395213,48.5008406975398,49.4068193488978,48.0110686615876,50.4555405103432,50.716702010029,48.9176581314285,48.0935178549931,60.1639279420272,49.5957157548105,60.1721309319699,52.5414753752963,49.5819476775903,50.4989713448712,49.8152015728823,49.5520249773298,50.6967733614878,48.268967648775,41.9105990771076,48.8998553244893,38.9339472410123,39.0058359474295,48.5501778182562,51.524698726513,49.8404807126882,50.4733117273405,50.482580591191,50.4265076236834,50.2277385991972,52.3627365433332,49.2850338334209,49.8754544244738,49.4505527079934,50.9591275973367,49.4207991787937,50.1194183812024,50.8259125910834,51.2061109176674,50.4372631761491,49.7461694013837,48.1619746177183,49.8415956139079,48.5961296432033,50.4438052341751,49.887266670154,50.0416253400601,50.7157458436707,48.4574190834453,48.4299227799408,40.4382946351017,48.6066939880592,48.8936217697722,50.5509406136201,34.7941852080788,50.4724243336057,48.0919351457937,51.9560202404294,50.06335278793,50.2422345477294,48.6083137025247,50.4946715620874,50.0740190356126,48.4337805483977,50.1949609925999,48.24178247666,50.4891364394159,50.4820658366493,48.9521818423237,50.0735375903563,50.4575995995317,51.9571498702738,50.4675753772298,51.3111441838737,60.1907169996974,60.1674091802389,60.2103435390646,60.1419195377446,60.1825773754643,60.2051991939818,60.1252980557884,50.4193036795274,51.7279663015922,49.3839218178883,48.547499498379,50.1199901356606,50.4987251420859,50.8477000307467,50.4534883715137,50.4263523668135,51.1786630011092,50.5813502732902,54.5346889873828,48.4680687203039,52.2479137055903,49.4355434858985,50.4448989398127,41.8626371936856,49.593890487821,50.9424111304013,50.4079078820531,51.836113019538,48.1732942267299,51.2857117203094,50.6605565038868,49.2475572290696,50.5978010392825,49.027116271262,49.8378828923439,48.3057188581917,54.3631924895691,49.4613979270194,50.0587961241046,49.4512468837428,50.6919221960936,50.6409037758444,51.2463038791395,60.1350581964579,50.4811623022872,48.9732711713281,46.0786142439819,50.4527297578814,49.4716186550204,50.4906927501642,51.0590267200906,48.329694263578,49.2491501377144,49.3162071453304,48.0303099694276,48.744572315343,48.6881868012381,49.5074069683779,50.220336780906,48.4532064965993,45.5012888745227,49.7202282524555,49.4253432254046,49.9838484025768,50.2072481040296,48.7168533851068,48.8453121246815,50.6661988910944,50.4547192402015,49.1401051488549,49.5988550110124,48.6596582814008,33.2438972344751,9.04029015324473,28.3496205118109,49.4492946706591,46.4980011716047,50.2101403741937,49.8483725968617,50.4127058721117,51.5102868580766,48.4834998254007,49.4347901967094,49.234004562957,51.3577863904105,50.2058605518631,49.8757835755935,50.48915609098,50.05512821699,50.0203531279504,50.4232424534684,49.5388347882206,46.7821545295579,49.4891353692372,60.1525200180065,50.960842344322,50.4498278219446,60.147962581722,50.4293528941197,49.8461708846312,50.4965235072601,60.1222464865756,48.2725866532327,51.1833713763721,50.4303411447873,48.6444581553935,49.8693326681927,50.4935396839677,49.8054374871364,49.8785917301638,49.0342022804462,50.0496344202465,48.362303019334,51.7643525701327,52.0507756870148,48.4647658724692,48.4962408213224,49.8398263550147,49.4091142904453,49.628118970166,49.8380195281276,49.2156425638601,51.6714272750337,50.0646510373642,49.7991948824335,49.5179515419369,35.9593605713857,52.3623561401186,49.2151190321073,50.1006430906674,52.4770454788665,50.0280353075448,50.4630229690167,51.5047043007478,49.7346745183126,48.8881792188489,50.3451620717313,51.8572511420518,50.4203283163898,49.5632976554048,49.3863219714975,51.1330010131664,51.1252838968777,60.1891750887601,60.1958333823443,48.1096731185973,60.1403706671002,60.1312061652737,60.2090942281945,49.4554082845705,60.1539816690235,48.3648388772031,49.7533000884628,49.5651242119328,48.2731021932264,49.8833252757915,50.3166567230523,34.7045689475115,49.4051708014558,49.4266418932781,49.1051582810426,49.3155254926814,49.1826453552246,52.5530942438069,51.1312512757154,49.8185240670144,50.369013449302,49.1123671761978,50.0702276593112,46.8035374808408,48.2992379721989,50.079785313353,46.5288128288486,52.2479932151318,50.4337748186976,48.7767624195561,50.4291466191564,49.2397872899592,48.9576481572577,51.2237968811093],[10.4342159480369,25.0426699257175,11.0245187737287,25.8951540889052,18.6087329706171,30.5637781341729,26.6044366463226,26.9973827968343,30.485411323778,23.9923671247971,25.2518104327645,26.5664986255708,24.0496315942496,13.7439493050743,30.0724425748934,23.5096413191873,30.7253771828973,5.46089498973,24.7433416929772,22.2717426554228,26.993875290147,16.3424557284219,25.5951988371311,22.3218140946443,34.5199052403525,34.5382373484816,34.5574057664583,32.2288912767418,32.0442612052045,37.8356884028544,30.5390924525692,25.3079652457709,24.6698827224479,29.4033669108136,24.9313643608433,34.5277877086112,24.9327452156619,13.4045526763346,34.5735703923782,30.513710460052,6.14652261870784,34.5538915880352,25.3393871167914,25.9229963889044,12.5268737439118,24.6919679709765,35.2188792452016,35.2019261358355,28.1175366882728,31.2641047627208,24.0209104816898,30.5485482324158,30.5489534218834,30.4843864843464,30.9452946101644,4.8695825041282,31.4241146141305,24.0370193479866,29.8887524873952,30.8800902231141,26.9779777957632,30.9021661980558,6.112256497623,10.4356537310918,30.4894842586908,30.1726214261767,24.2985561809158,23.9938673469617,22.2951688634289,29.8356841059958,23.999859298109,29.9112955462794,4.74133251179833,35.0343027504681,22.7131358335891,-3.72909736750478,22.2901301943711,24.7437243565731,32.3775935849933,32.3966168978289,4.47757514614479,37.9437139594942,19.1378812836913,30.6408998453465,30.6670246310212,22.2919022955725,30.5222538312658,30.7816104845531,24.5407283923618,8.6253598225927,25.9008272872595,30.5451941362161,30.4996885743346,24.729192043535,30.2578125794567,30.5112830802262,19.6847243420358,4.47128760786329,33.1110210932633,24.9312526059387,24.971720714737,24.9361903546129,24.9053398528199,24.9635232770902,24.9125076444105,24.9791092543905,30.5350512525301,14.294414718273,26.9871925489888,32.2449902120857,19.0248999494962,30.5164864050833,12.9341512658828,30.551765833885,30.506220964786,10.4826313988403,26.257421901882,18.500102350219,24.6116520639141,21.0372227119923,27.025303379756,30.4968121523882,12.5464748739799,25.5593538491784,34.7997222813247,30.5628026451031,31.9597034567677,17.1078700653933,22.5916836649445,24.3841957498547,31.8620418505264,24.3502085632585,23.0150371596514,15.5078693269893,25.0667598529357,18.6097519480769,26.9592702887271,19.9642065325677,32.0560610855511,29.6177159434326,26.2523580093739,6.85444792168888,24.9004937796362,30.5166972313462,24.7463035637826,30.3704146871953,30.5211244227867,32.0489938384708,30.5083189250281,31.8910524689714,25.9714326144775,28.4741441291052,23.5171504167958,7.85429794734493,9.18653017514236,23.4817167016175,25.8815453265962,30.2951763596437,35.0466154720124,9.1879761647149,30.5221995080335,26.9890064154135,32.9781238474396,32.5323630358622,26.545289340516,2.36836267310897,26.2786099706526,30.4984926677197,33.3621219123389,23.8770835796969,19.6844201756377,43.6466557164779,8.6763038210184,84.1108616932365,26.9687874846404,30.7533047452014,28.6714180923386,24.0009905613973,30.5307593613449,30.7122952313488,35.0282355016493,31.2916314898109,28.4920508113509,28.7849516134422,28.6273221347409,24.0319309712138,30.5223525851931,30.7480152200779,30.8032943700977,30.5558412154502,34.558499496559,36.8072906711607,11.8804131612897,24.9460720224483,31.8007369298371,30.5282106087498,24.9736796257089,30.5055469106679,24.046559259607,34.035478848099,24.9003749268789,25.9426943926054,10.4474208858686,30.5491229313183,22.2811365126568,24.0640961886397,30.5625768486813,24.0548131503175,24.0542122512511,25.7888558435024,32.9940518908687,31.1843273769632,19.4488205924842,10.2271172751151,29.1795536174556,22.9989059287328,30.4083509023736,30.1604743581434,34.5464879271997,23.9945838175818,28.4386324962563,26.2428907435282,19.9508364166168,23.9911940228284,25.6136358102392,14.3665467925693,16.8889180822103,28.5064534855044,30.6419860241231,13.430456010207,30.7788250241502,30.493207191546,18.9850746068603,33.2433055181542,24.6716725997417,30.2763907137424,33.4738630370369,30.4832588750775,25.5908730917827,8.63343607458862,10.4257045560603,17.0491677027948,24.8974698027898,24.939355720137,17.1398588182197,24.9249506763909,24.9447666609398,24.9476818221945,27.0092450596009,24.9088879005768,33.5137881882446,28.8752019053488,34.5150629704586,25.9491334617357,24.0695313490321,26.5866245759036,33.0435125688353,26.9912574146518,26.9666662667801,33.3733861200073,28.4965717875087,25.2185198748242,13.4438782222387,10.4280692543215,24.0649839867365,26.5276381483764,29.8318231332866,29.9351458002014,8.2348732730191,25.9727127189815,14.4788900147395,30.6917940037037,20.9971016687234,30.544241218179,25.1023247293218,24.5318542146869,23.5287000415777,24.7093229025108,16.1219601810723],null,null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},["<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціологічне забезпечення управлінських процесів<br/><b>Group: <\/b>4","<b>Degree: <\/b>Магістратура<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Гендерні студії<br/><b>Group: <\/b>3","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>3<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>3","<b>Degree: <\/b>Магістратура<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Гендерні студії<br/><b>Group: <\/b>3","<b>Degree: <\/b>Магістратура<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Гендерні студії<br/><b>Group: <\/b>3","<b>Degree: <\/b>Магістратура<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Гендерні студії<br/><b>Group: <\/b>3","<b>Degree: <\/b>Магістратура<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Гендерні студії<br/><b>Group: <\/b>3","<b>Degree: <\/b>Магістратура<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Гендерні студії<br/><b>Group: <\/b>3","<b>Degree: <\/b>Магістратура<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Гендерні студії<br/><b>Group: <\/b>3","<b>Degree: <\/b>Магістратура<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Гендерні студії<br/><b>Group: <\/b>3","<b>Degree: <\/b>Магістратура<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Гендерні студії<br/><b>Group: <\/b>3","<b>Degree: <\/b>Аспірантура<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>немає","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціологічне забезпечення управлінських процесів<br/><b>Group: <\/b>4","<b>Degree: <\/b>Магістратура<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Гендерні студії<br/><b>Group: <\/b>3","<b>Degree: <\/b>Магістратура<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Прикладна соціологія<br/><b>Group: <\/b>4","<b>Degree: <\/b>Магістратура<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Прикладна соціологія<br/><b>Group: <\/b>4","<b>Degree: <\/b>Магістратура<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Прикладна соціологія<br/><b>Group: <\/b>4","<b>Degree: <\/b>Магістратура<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Прикладна соціологія<br/><b>Group: <\/b>4","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціологічне забезпечення управлінських процесів<br/><b>Group: <\/b>4","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>3","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>4<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>2","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>4<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>2","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>4<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>2","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>4<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>2","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>3","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>3","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>3","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>3","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>3","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>3","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>3","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>3<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>3","<b>Degree: <\/b>Магістратура<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>3<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>3","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>3<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>3","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>3<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>3","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>3<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>3","<b>Degree: <\/b>Магістратура<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>3","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>3","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>3<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>2","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>3","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>3","<b>Degree: <\/b>Магістратура<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>2","<b>Degree: <\/b>Магістратура<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>2","<b>Degree: <\/b>Магістратура<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>2","<b>Degree: <\/b>Магістратура<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>2","<b>Degree: <\/b>Магістратура<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>2","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціологічне забезпечення управлінських процесів<br/><b>Group: <\/b>4","<b>Degree: <\/b>Магістратура<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>2","<b>Degree: <\/b>Магістратура<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>2","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>2","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>2","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>2","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>2","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>2","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>2","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>2","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>2","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>2","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>2","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>2","<b>Degree: <\/b>Магістратура<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Гендерні студії<br/><b>Group: <\/b>3","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціологічне забезпечення управлінських процесів<br/><b>Group: <\/b>4","<b>Degree: <\/b>Магістратура<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>2","<b>Degree: <\/b>Магістратура<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>2","<b>Degree: <\/b>Магістратура<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>2","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціологічне забезпечення управлінських процесів<br/><b>Group: <\/b>4","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціологічне забезпечення управлінських процесів<br/><b>Group: <\/b>4","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціологічне забезпечення управлінських процесів<br/><b>Group: <\/b>4","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціологічне забезпечення управлінських процесів<br/><b>Group: <\/b>4","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>3","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціологічне забезпечення управлінських процесів<br/><b>Group: <\/b>4","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціологічне забезпечення управлінських процесів<br/><b>Group: <\/b>4","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціологічне забезпечення управлінських процесів<br/><b>Group: <\/b>4","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>3<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціологічне забезпечення управлінських процесів<br/><b>Group: <\/b>3","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціологічне забезпечення управлінських процесів<br/><b>Group: <\/b>3","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціологічне забезпечення управлінських процесів<br/><b>Group: <\/b>3","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціологічне забезпечення управлінських процесів<br/><b>Group: <\/b>3","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціологічне забезпечення управлінських процесів<br/><b>Group: <\/b>3","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціологічне забезпечення управлінських процесів<br/><b>Group: <\/b>3","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціологічне забезпечення управлінських процесів<br/><b>Group: <\/b>3","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціологічне забезпечення управлінських процесів<br/><b>Group: <\/b>3","<b>Degree: <\/b>Аспірантура<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>немає","<b>Degree: <\/b>Аспірантура<br/><b>Year of study: <\/b>3<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>немає","<b>Degree: <\/b>Аспірантура<br/><b>Year of study: <\/b>3<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>немає","<b>Degree: <\/b>Аспірантура<br/><b>Year of study: <\/b>4<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>немає","<b>Degree: <\/b>Аспірантура<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>немає","<b>Degree: <\/b>Аспірантура<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>немає","<b>Degree: <\/b>Аспірантура<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>немає","<b>Degree: <\/b>Аспірантура<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>немає","<b>Degree: <\/b>Аспірантура<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>немає","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>3<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>2","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>2","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>3<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>3<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>2","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>3<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>3<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>2","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>3<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>3<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>2","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>3<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>3<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>2","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>3<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Магістратура<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>2","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>2","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>2","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>2","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>2","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>2","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>2","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>2","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>3<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>2","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>3<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>3<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>2","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>3<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>3<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>3<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>2","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>3<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>4<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>4<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>4<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>4<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>4<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>2","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>2","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>2","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>2","<b>Degree: <\/b>Магістратура<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Прикладна соціологія<br/><b>Group: <\/b>4","<b>Degree: <\/b>Магістратура<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>3","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>3<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Магістратура<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Магістратура<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Прикладна соціологія<br/><b>Group: <\/b>4","<b>Degree: <\/b>Магістратура<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Магістратура<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Прикладна соціологія<br/><b>Group: <\/b>4","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>3<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>3","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Магістратура<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Магістратура<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Магістратура<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Магістратура<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Магістратура<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Магістратура<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Магістратура<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Магістратура<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Магістратура<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Sociology<br/><b>Group: <\/b>немає","<b>Degree: <\/b>Магістратура<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Sociology<br/><b>Group: <\/b>5","<b>Degree: <\/b>Магістратура<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Sociology<br/><b>Group: <\/b>5","<b>Degree: <\/b>Магістратура<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Sociology<br/><b>Group: <\/b>5","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>3","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>3","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>3","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>3","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>3","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>4<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>2","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>4<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>2","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>4<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>2","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>4<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>2","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>4<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>2","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>4<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>2","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>3","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>3","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>3","<b>Degree: <\/b>Магістратура<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Прикладна соціологія<br/><b>Group: <\/b>4","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>3<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>2","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>3<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>3","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>3<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>3","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>2","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>3<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>3","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>3<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>3","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>3<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>3","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>3<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>3","<b>Degree: <\/b>Магістратура<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>2","<b>Degree: <\/b>Магістратура<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>2","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>2","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>3<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>3","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>2","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>2","<b>Degree: <\/b>Магістратура<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>2","<b>Degree: <\/b>Магістратура<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>2","<b>Degree: <\/b>Магістратура<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>2","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціологічне забезпечення управлінських процесів<br/><b>Group: <\/b>4","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціологічне забезпечення управлінських процесів<br/><b>Group: <\/b>4","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціологічне забезпечення управлінських процесів<br/><b>Group: <\/b>4","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціологічне забезпечення управлінських процесів<br/><b>Group: <\/b>4","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціологічне забезпечення управлінських процесів<br/><b>Group: <\/b>4","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціологічне забезпечення управлінських процесів<br/><b>Group: <\/b>4","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>2","<b>Degree: <\/b>Магістратура<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціальні технології<br/><b>Group: <\/b>2","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціологічне забезпечення управлінських процесів<br/><b>Group: <\/b>3","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціологічне забезпечення управлінських процесів<br/><b>Group: <\/b>3","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціологічне забезпечення управлінських процесів<br/><b>Group: <\/b>3","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціологічне забезпечення управлінських процесів<br/><b>Group: <\/b>3","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціологічне забезпечення управлінських процесів<br/><b>Group: <\/b>3","<b>Degree: <\/b>Аспірантура<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>немає","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>2","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>2","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>2","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>3<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>2","<b>Degree: <\/b>Магістратура<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>3<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>2","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>3<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>2","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>3<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>2","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>2","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>2","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціологічне забезпечення управлінських процесів<br/><b>Group: <\/b>4","<b>Degree: <\/b>Магістратура<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>3<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>2","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>3<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>3<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>2","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>3<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>2","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>3<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>3<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>2","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>3<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>3<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>2","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>3<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>3<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>2","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>3<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>4<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>4<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>4<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>4<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>4<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>4<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>4<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>4<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>4<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>4<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>2","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>2","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>2","<b>Degree: <\/b>Магістратура<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Магістратура<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Магістратура<br/><b>Year of study: <\/b>1<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>1","<b>Degree: <\/b>Бакалаврат<br/><b>Year of study: <\/b>2<br/><b>Program: <\/b>Соціологія<br/><b>Group: <\/b>2"],null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[9.04029015324473,60.2103435390646],"lng":[-3.72909736750478,84.1108616932365]}},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
+<p>Geographical distribution of students in mid-March 2022</p>
+</div>
+</div>
+</div>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
